@@ -106,15 +106,23 @@ section {
 
 body {
 	line-height: 1;
-	background-color: #0f0e0e !important;
+	background-color: #FFFFFF !important;
 }
 
 p {
-	font-family: Anek Tamil;
+	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
 	letter-spacing: 0em;
+}
+
+.black{
+	color: #000000;
+}
+
+.white{
+	color: #FFFFFF;
 }
 
 #header {
@@ -186,7 +194,7 @@ section#home-sec1 {
 
 /* christmas */
 ::-webkit-scrollbar-thumb {
-	background: linear-gradient(269.84deg, #7B337D -40.96%, #7B337D -4.77%, #847446 163.26%);
+	background: linear-gradient(269.84deg, #FF6B35 -40.96%, #FF6B35 -4.77%, #FFB36B 163.26%);
 }
 
 blockquote,
@@ -208,7 +216,7 @@ table {
 }
 
 section#contentsection-right h4 {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 body {
@@ -281,9 +289,9 @@ body,
 input,
 textarea,
 select {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
-	color: #919499;
+	color: #1A1A1A;
 	font-size: 14pt;
 	line-height: 1.75em;
 	letter-spacing: 0.025em;
@@ -295,8 +303,9 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	color: #484d55;
+	color: #1A1A1A;
 }
 
 h1 a,
@@ -325,7 +334,7 @@ a:hover {
 strong,
 b {
 	font-weight: 700;
-	color: #484d55;
+	color: #1A1A1A;
 }
 
 blockquote {
@@ -1678,7 +1687,7 @@ table.default {
 }
 
 table.default tbody tr:nth-child(2n+2) {
-	background: #f4f4f4;
+	background: #FFF4ED;
 }
 
 table.default td {
@@ -1692,7 +1701,7 @@ table.default th {
 }
 
 table.default thead {
-	background: #484d55;
+	background: #1A1A1A;
 	color: #fff;
 }
 
@@ -1705,7 +1714,7 @@ table.default tfoot {
 form label {
 	display: block;
 	font-weight: 700;
-	color: #484d55;
+	color: #1A1A1A;
 	margin: 0.25em 0 0.5em 0;
 }
 
@@ -1849,7 +1858,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-	background-color: #f98780;
+	background-color: #FFA978;
 }
 
 input[type="button"].large,
@@ -1866,7 +1875,7 @@ input[type="submit"].style1,
 input[type="reset"].style1,
 button.style1,
 .button.style1 {
-	background: #e97770 url("images/overlay.png");
+	background: #FF8C5A url("images/overlay.png");
 	color: #fff;
 }
 
@@ -1875,7 +1884,7 @@ input[type="submit"].style1:hover,
 input[type="reset"].style1:hover,
 button.style1:hover,
 .button.style1:hover {
-	background-color: #f98780;
+	background-color: #FFA978;
 }
 
 input[type="button"].style1:active,
@@ -1883,7 +1892,7 @@ input[type="submit"].style1:active,
 input[type="reset"].style1:active,
 button.style1:active,
 .button.style1:active {
-	background-color: #d96760;
+	background-color: #E8590C;
 }
 
 input[type="button"].style2,
@@ -2044,7 +2053,7 @@ ul.actions.special {
 }
 
 .feature-list h3 {
-	color: #e97770 !important;
+	color: #FF8C5A !important;
 	margin: -0.35em 0 0.75em 0;
 	font-size: 1.15em;
 	letter-spacing: 0.05em;
@@ -2199,13 +2208,13 @@ ul.actions.special {
 }
 
 .wrapper.style1 {
-	background: #e97770 url("images/overlay.png");
+	background: #FF8C5A url("images/overlay.png");
 	color: #eee;
 	color: rgba(255, 255, 255, 0.75);
 }
 
 .wrapper.style1 .title {
-	background: #e97770 url("images/overlay.png");
+	background: #FF8C5A url("images/overlay.png");
 	color: #fff;
 }
 
@@ -2227,16 +2236,16 @@ ul.actions.special {
 
 .wrapper.style2 .title {
 	background: #fff;
-	color: #484d55;
+	color: #1A1A1A;
 }
 
 .wrapper.style3 {
-	background: #f3f3f3 url("images/overlay.png");
+	background: #FFF4ED url("images/overlay.png");
 }
 
 .wrapper.style3 .title {
-	background: #f3f3f3 url("images/overlay.png");
-	color: #484d55;
+	background: #FFF4ED url("images/overlay.png");
+	color: #1A1A1A;
 }
 
 .wrapper.style3 .image {
@@ -2262,7 +2271,7 @@ ul.actions.special {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	background: #000000d1;
+	background: #FFFFFF;
 	background-size: cover;
 	padding: 0;
 }
@@ -2281,7 +2290,7 @@ ul.actions.special {
 #logo h1 {
 	font-weight: 900;
 	text-transform: uppercase;
-	color: #fff;
+	color: #1A1A1A;
 	font-size: 2em;
 	letter-spacing: 0.25em;
 }
@@ -2305,7 +2314,7 @@ section#header #logo img {
 }
 
 #nav>ul li a {
-	font-family: 'Anek Tamil', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: capitalize;
 	font-size: 16px;
 	font-weight: 500;
@@ -2315,7 +2324,7 @@ section#header #logo img {
 }
 
 #nav>ul li.current a {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -2350,7 +2359,7 @@ section#header #logo img {
 #nav>ul>li>a,
 #nav>ul>li>span {
 	display: block;
-	color: #132c5a;
+	color: #CC5200;
 	-moz-transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
 	-o-transition: all .25s ease-in-out;
@@ -2360,22 +2369,22 @@ section#header #logo img {
 }
 
 #nav>ul>li:hover>a {
-	color: #132c5a;
+	color: #CC5200;
 }
 
 #nav>ul>li.active>a,
 #nav>ul>li.active>span {
-	color: #132c5a;
+	color: #CC5200;
 }
 
 .dropotron {
-	background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%);
+	background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%);
 	padding: 0px 20px;
 	border-radius: 0.35em;
 	min-width: 12em;
 	text-align: left;
 	list-style: none;
-	border: 1px solid #132c5a;
+	border: 1px solid #CC5200;
 
 }
 
@@ -2475,7 +2484,7 @@ section#header #nav>ul li.opener.active ul.dropotron .my-dropdown li a:hover {
 }
 
 #highlights .highlight h3 {
-	color: #e97770;
+	color: #FF8C5A;
 	margin: 0 0 0.75em 0;
 	font-size: 1.15em;
 	letter-spacing: 0.05em;
@@ -2876,12 +2885,12 @@ section#header #nav>ul li.opener.active ul.dropotron .my-dropdown li a:hover {
 		line-height: 38px;
 		text-align: center;
 		color: rgba(255, 255, 255, 0.75);
-		background-color: rgb(104 46 110);
+		background-color: rgb(255 107 53);
 		border-radius: 0.25em;
 	}
 
 	#titleBar .toggle:active:before {
-		background-color: rgba(104, 46, 110, 0.75);
+		background-color: rgba(255, 107, 53, 0.75);
 	}
 
 	#navPanel {
@@ -3403,13 +3412,13 @@ section#header #nav>ul li.opener.active ul.dropotron .my-dropdown li a:hover {
 	padding: 0;
 	margin: 0;
 	font-size: 14px;
-	font-family: 'Anek Tamil', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 100 !important;
 	text-align: center;
 }
 
 .header-top-nav .custom-section {
-	background: #7B337Dbf;
+	background: #FF6B35bf;
 	padding: 9px 0;
 }
 
@@ -3418,7 +3427,7 @@ section#header #nav>ul li.opener.active ul.dropotron .my-dropdown li a:hover {
 	color: #fff;
 	line-height: 0;
 	padding: 19px 34px;
-	background: #7B337D;
+	background: #FF6B35;
 	box-shadow: inset 0px 1px 7px rgba(0, 0, 0, 0.25);
 	border-radius: 14px;
 	font-style: normal;
@@ -3435,7 +3444,7 @@ section#header nav#nav ul li.current:before {
 }
 
 h1 {
-	font-family: Anek Tamil, sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-size: 65px;
 	font-weight: 700;
 	line-height: 67px;
@@ -3445,7 +3454,7 @@ h1 {
 section#header h1 {
 	padding: 60px 0 0 0;
 	color: #fff !important;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 65px;
@@ -3455,7 +3464,7 @@ section#header h1 {
 }
 
 section#header h1 b {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -3477,7 +3486,7 @@ section#header h1 b {
 
 section#header p {
 	color: #fff;
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 25px;
@@ -3495,7 +3504,7 @@ section#header p {
 }
 
 section#header .custom-industries-section .inner-card h3 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -3522,7 +3531,7 @@ section#header .custom-industries-section .inner-card h3 {
 }
 
 .custom-industries-section .col-2:hover .main-inner {
-	background-image: #7B337D;
+	background-image: #FF6B35;
 	background-image: -moz-linear-gradient(center bottom, rgb(14, 173, 86) 33%, rgb(0, 255, 85) 67%);
 	padding: 2px;
 	border: none;
@@ -3550,7 +3559,7 @@ section#header .custom-industries-section .inner-card h3 {
 
 
 .custom-industries-section .col-2:hover .main-inner h3 {
-	background: linear-gradient(98.92deg, #7B337D 6.91%, #7B337D 100%);
+	background: linear-gradient(98.92deg, #FF6B35 6.91%, #FF6B35 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -3568,24 +3577,24 @@ video#bgvid {
 
 /* INTRO SECTION */
 section#intro-section h3 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 32px;
 	line-height: 103.8%;
-	color: #FFFFFF;
+	color: #1A1A1A;
 	margin-top: 25px
 }
 
 section#intro-section {
-	background: #0f0e0e;
-	color: #fff;
+	background: #FFFFFF;
+	color: #1A1A1A;
 	padding: 60px 0px 30px 0px;
 }
 
 section#intro-section h2 {
-	color: #fff;
-	font-family: 'Anek Tamil';
+	color: #1A1A1A;
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 45px;
@@ -3593,7 +3602,7 @@ section#intro-section h2 {
 }
 
 section#intro-section h2 b {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -3601,11 +3610,11 @@ section#intro-section h2 b {
 }
 
 section#intro-section .col-3:hover .why-choosetext {
-	border-color: #7B337D !important;
+	border-color: #FF6B35 !important;
 }
 
 section#intro-section .why-choosetext .why-choose-image img {
-	border: 1px solid #7B337D;
+	border: 1px solid #FF6B35;
 	border-radius: 48px;
 	transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	background: #fff;
@@ -3614,10 +3623,10 @@ section#intro-section .why-choosetext .why-choose-image img {
 section#intro-section .why-choosetext {
 	padding: 50px 20px;
 	text-align: center;
-	background: linear-gradient(360deg, rgba(33, 5, 53, 1) 0%, rgba(123, 51, 125, 1) 100%);
+	background: linear-gradient(360deg, rgba(204, 82, 0, 1) 0%, rgba(255, 140, 90, 1) 100%);
 	box-shadow: 0px 7px 3px rgba(0, 0, 0, 0.09);
 	border-radius: 25px;
-	border: 2px solid #7B337D;
+	border: 2px solid #FF6B35;
 	margin: 0 4px;
 	height: 85%;
 	background-size: cover;
@@ -3627,7 +3636,7 @@ section#intro-section .why-choosetext {
 }
 
 section#intro-section .why-choosetext:hover {
-	background: linear-gradient(125deg, #132c5a 0%, #132c5a 21%, #132c5a 38%, #3157a564 72%, #7B337D 100%) 0% 0% no-repeat;
+	background: linear-gradient(125deg, #CC5200 0%, #CC5200 21%, #CC5200 38%, #FF8C5A64 72%, #FF6B35 100%) 0% 0% no-repeat;
 	transition: .4s;
 }
 
@@ -3665,7 +3674,7 @@ section#intro-section .button-custom:hover a {
 }
 
 .button-custom a {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
@@ -3678,7 +3687,7 @@ section#intro-section .why-choosetext .why-choose-image {
 }
 
 section#intro-section .why-choosetext h3 {
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 22px;
@@ -3690,7 +3699,7 @@ section#intro-section .why-choosetext h3 {
 }
 
 section#intro-section .why-choosetext p {
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 25px;
@@ -3724,13 +3733,13 @@ section#intro-section .col-3:hover p {
 	text-align: center;
 	background: #fff;
 	padding: 9px 0px;
-	background: #7B337D;
+	background: #FF6B35;
 	border-radius: 0px 0px 21px 21px;
 	margin: 0 4px;
 }
 
 .button-custom a {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
@@ -3817,25 +3826,25 @@ section#grow-brand .carousel {
 }
 
 section#grow-brand {
-	background: #0f0e0e;
-	color: #fff;
+	background: #FFFFFF;
+	color: #1A1A1A;
 	padding: 60px 0px;
 	margin-bottom: 0;
 	border-bottom: 1px solid #cccccc30;
 }
 
 section#grow-brand h1 {
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 65px;
 	font-weight: 700;
 	line-height: 65px;
 	letter-spacing: 0em;
 	text-align: center;
-	color: #fff;
+	color: #1A1A1A;
 }
 
 section#grow-brand h1 b {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -3843,14 +3852,14 @@ section#grow-brand h1 b {
 }
 
 .brand-button:hover h6 {
-	background-image: #7B337D;
+	background-image: #FF6B35;
 	transition: .9s;
 }
 
 .brand-button h6 a {
 	padding: 13px 29px;
 	color: #fff;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -3858,12 +3867,12 @@ section#grow-brand h1 b {
 	transition: .9s;
 	border: none;
 	border-radius: 26px;
-	background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%);
-	/* border-color: #7B337D; */
+	background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%);
+	/* border-color: #FF6B35; */
 }
 
 .brand-button h6 a:hover {
-	background-image: linear-gradient(106deg, #7B337D 41%, #132c5a 100%);
+	background-image: linear-gradient(106deg, #FF6B35 41%, #CC5200 100%);
 	color: white;
 }
 
@@ -3876,7 +3885,7 @@ section#grow-brand h1 b {
 .brand-button {
 	width: auto !important;
 	display: inline;
-	background-image: #7B337D;
+	background-image: #FF6B35;
 	background-image: -moz-linear-gradient(center bottom, rgb(14, 173, 86) 33%, rgb(0, 255, 85) 67%);
 	padding: 2px !important;
 	border: none;
@@ -3888,7 +3897,7 @@ section#grow-brand h1 b {
 }
 
 .heading-text h3 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 32px;
@@ -3897,8 +3906,8 @@ section#grow-brand h1 b {
 }
 
 .heading-text h2 {
-	color: #fff;
-	font-family: 'Anek Tamil';
+	color: #1A1A1A;
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
@@ -3907,7 +3916,7 @@ section#grow-brand h1 b {
 
 
 .heading-text h2 b {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -3929,9 +3938,9 @@ section#what-can-we .accordion-item .logo-images img {
 }
 
 section#what-can-we .accordion-item {
-	background: #0c0b0b;
+	background: #FF6B35;
 	color: #fff;
-	border: 1px solid #7B337D75;
+	border: 1px solid #FF6B3575;
 	padding: 50px 50px;
 	border-radius: 20px;
 	box-shadow: 0px 0px 11px #cccccc96;
@@ -3948,10 +3957,10 @@ section#what-can-we ul#myTab {
 }
 
 section#what-can-we ul#myTab .nav-link {
-	background: #0c0b0b;
+	background: #FF6B35;
 	border: 1px solid #4B4B4B;
 	border-radius: 15px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -3962,31 +3971,31 @@ section#what-can-we ul#myTab .nav-link {
 }
 
 section#what-can-we ul#myTab .nav-link:hover {
-	background: #7B337D;
+	background: #FF6B35;
 
 }
 
 section#what-can-we li.nav-item .active {
-	background: #7B337D !important;
-	border: 1px solid #7B337D;
+	background: #FF6B35 !important;
+	border: 1px solid #FF6B35;
 	border-radius: 15px;
 	color: #fff !important;
 }
 
 section#what-can-we {
-	background: #0f0e0e;
-	color: #fff;
+	background: #FFFFFF;
+	color: #1A1A1A;
 	padding: 60px 0px;
 	margin: 0px;
 }
 
 section#what-can-we .inner-customcanwe .logo-design {
-	border-bottom: 1px solid #444444;
+	border-bottom: 1px solid #DDDDDD;
 	padding-bottom: 40px;
 }
 
 section#what-can-we .information p {
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 21px;
@@ -4018,17 +4027,17 @@ section#what-can-we .fade:not(.show) {
 section#what-can-we .inner-customcanwe .button-text a {
 	float: right;
 	text-decoration: unset;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 208.3%;
-	color: #7B337D;
+	color: #FF6B35;
 	z-index: 9999999999;
 }
 
 section#what-can-we .information h2 {
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 25px;
@@ -4038,15 +4047,15 @@ section#what-can-we .information h2 {
 
 section#what-can-we .information {
 	padding-top: 40px;
-	color: #fff;
+	color: #1A1A1A;
 }
 
 
 /* recentpass css */
 section#recent-past {
 	margin: 0;
-	background: #0f0e0e;
-	color: #fff;
+	background: #FFFFFF;
+	color: #1A1A1A;
 	padding: 60px 0px;
 	border-top: 1px solid #cccccc2b;
 	border-bottom: 1px solid #cccccc2b;
@@ -4057,12 +4066,12 @@ i.fa.fa-angle-down {
 }
 
 section#recent-past h1 {
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 65px;
 	font-weight: 700;
 	line-height: 65px;
 	letter-spacing: 0em;
-	color: #fff;
+	color: #1A1A1A;
 }
 
 section#what-can-we .information h2 img:hover {
@@ -4070,16 +4079,16 @@ section#what-can-we .information h2 img:hover {
 }
 
 section#recent-past .heading-text h3 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 32px;
 	line-height: 103.8%;
-	color: #FFFFFF;
+	color: #1A1A1A;
 }
 
 section#recent-past h1 b {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -4105,13 +4114,13 @@ section#recent-past .tab-pane {
 
 section#recent-past .nav-tabs .nav-link.active {
 	background: #ff10 !important;
-	color: #7B337D !important;
+	color: #FF6B35 !important;
 }
 
 section#recent-past .nav-tabs .nav-link {
 	border: 0 !important;
 	color: #4D4D4D;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-size: 16px;
 	line-height: 54px;
@@ -4148,7 +4157,7 @@ section#recent-past .gallery-item {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	border: 3px solid #7B337D;
+	border: 3px solid #FF6B35;
 }
 
 .accordion {
@@ -4225,7 +4234,7 @@ section#recent-past .gallery-item {
 
 /* FAQS CSS */
 section#faqs .accordion-body {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -4261,7 +4270,7 @@ section#faqs button.accordion-button.collapsed {
 	background: #141313;
 	border: 2px solid #141313;
 	border-radius: 25px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -4273,7 +4282,7 @@ section#faqs button.accordion-button.collapsed {
 section#faqs .accordion-button:not(.collapsed) {
 	background: #ff10 !important;
 	box-shadow: unset;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -4304,7 +4313,7 @@ section#testimonials-sections #page .slick-track .testimonial-text {
 }
 
 section#testimonials-sections .testimonial-text h3 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 30px;
@@ -4337,7 +4346,7 @@ section#testimonials-sections .slick-slide img {
 
 section#testimonials-sections .slick-slide.is-active.slick-active h3 span img {
 	border-radius: 50%;
-	border: 2px solid #7B337D;
+	border: 2px solid #FF6B35;
 }
 
 section#testimonials-sections .testimonial-quote {
@@ -4398,7 +4407,7 @@ textarea:focus-visible {
 
 section#contact-us form#contact ::placeholder {
 	font-style: inherit !important;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-weight: 400;
 	font-size: 20px;
 	color: #656565;
@@ -4411,10 +4420,10 @@ section#contact-us form#contact textarea {
 
 section#contact-us form#contact button#contact-submit {
 	width: 100%;
-	background: linear-gradient(271.05deg, #7B337D 2.65%, #7B337D 97.16%);
+	background: linear-gradient(271.05deg, #FF6B35 2.65%, #FF6B35 97.16%);
 	border: 2px solid #2F2F2F;
 	border-radius: 25px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
@@ -4441,7 +4450,7 @@ section#contact-us form#contact textarea {
 section#contact-us form#contact input,
 section#contact-us form#contact textarea {
 	padding: 20px 20px;
-	background: #0f0e0e;
+	background: #FFFFFF;
 	border: 2px solid #f69500;
 	border-radius: 35px;
 	margin-bottom: 12px;
@@ -4474,7 +4483,7 @@ section#price-plans-section .nav-tabs .nav-link {
 	padding-bottom: 0 !important;
 	text-align: center;
 	text-transform: capitalize;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -4503,7 +4512,7 @@ section#price-plans-section .price-heading-text {
 }
 
 section#price-plans-section .price-heading-text h2 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-size: 16px;
 	line-height: 20px;
@@ -4513,7 +4522,7 @@ section#price-plans-section .price-heading-text h2 {
 }
 
 section#price-plans-section .price-heading-text h4 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 36px;
@@ -4524,7 +4533,7 @@ section#price-plans-section .price-heading-text h4 {
 }
 
 section#price-plans-section .price-list ul li::marker {
-	color: #7B337D !important;
+	color: #FF6B35 !important;
 	font-size: 19px;
 	line-height: 33px;
 }
@@ -4548,7 +4557,7 @@ section#price-plans-section .price-list {
 }
 
 section#price-plans-section .price-list ul li {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -4560,7 +4569,7 @@ section#price-plans-section .price-list ul li {
 
 section#price-plans-section .price-inner-plan {
 	background-image: url(../../images/hmebg.html);
-	border: 2px solid #7B337D;
+	border: 2px solid #FF6B35;
 	box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.13);
 	border-radius: 15px;
 	padding: 25px 5px;
@@ -4583,17 +4592,17 @@ section#price-plans-section li.nav-item {
 
 section#price-plans-section .nav-tabs .nav-link.active {
 	background: #ff10 !important;
-	color: #7B337D !important;
+	color: #FF6B35 !important;
 }
 
 section#price-plans-section .price-inner-plan:hover {
-	border-color: #7B337D;
+	border-color: #FF6B35;
 	transition: .9s;
 	transform: translateY(30px);
 }
 
 section#price-plans-section .price-inner-plan:hover .price-heading-text {
-	background: #7B337D;
+	background: #FF6B35;
 	border: 1px solid #434343;
 	box-shadow: inset 5px 11px 9px rgba(0, 0, 0, 0.18);
 	transition: .9s;
@@ -4604,17 +4613,17 @@ section#price-plans-section .price-inner-plan:hover .price-heading-text {
 /* footersec */
 footer#main-footer-sections {
 	padding: 130px 0 0px 0px;
-	border-top: 1px solid #ffffff52;
+	border-top: 1px solid #00000022;
 	border-radius: 90px 90px 0px 0px;
 }
 
 footer#main-footer-sections .footer-about-us p {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 26px;
-	color: #FFFFFF;
+	color: #1A1A1A;
 	margin-top: 10px;
 }
 
@@ -4624,12 +4633,12 @@ footer#main-footer-sections .footer-about-us p {
 }
 
 footer#main-footer-sections h4 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 23px;
 	line-height: 23px;
-	color: #fff;
+	color: #1A1A1A;
 	margin-bottom: 20px;
 }
 
@@ -4639,7 +4648,7 @@ footer#main-footer-sections ul.nav-menu-links {
 }
 
 footer#main-footer-sections .copyright-section {
-	background: #00000099;
+	background: #FFF4ED;
 	padding: 22px 0;
 }
 
@@ -4649,18 +4658,18 @@ footer#main-footer-sections .copyright-section p {
 }
 
 footer#main-footer-sections ul.nav-menu-links li a {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
-	color: #FFFFFF;
+	color: #1A1A1A;
 	text-decoration: unset;
 	transition: 0.5s;
 }
 
 footer#main-footer-sections ul.nav-menu-links li a:hover {
-	color: #7B337D !important;
+	color: #FF6B35 !important;
 }
 
 footer#main-footer-sections ul.nav-menu-links li {
@@ -4676,7 +4685,7 @@ footer#main-footer-sections .footer-nav-3 ul li a i {
 
 footer#main-footer-sections .footer-nav-3 ul li {
 
-	color: #FFFFFF;
+	color: #1A1A1A;
 }
 
 footer#main-footer-sections .footer-nav-3 ul li em {
@@ -4693,8 +4702,8 @@ footer#main-footer-sections .footer-payment-section .payment-inner img {
 }
 
 footer#main-footer-sections .footer-payment-section .payment-inner {
-	background: rgb(15 14 14);
-	border: 0.3px solid #7B337D;
+	background: #FFF4ED;
+	border: 0.3px solid #FF6B35;
 	border-radius: 7px;
 	padding: 20px 30px;
 }
@@ -4805,7 +4814,7 @@ section#about-us-main-section .about-banner-buttons ul {
 }
 
 body.about-us section#header p {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 18px;
@@ -4830,7 +4839,7 @@ section#milestone-section .text-mile-area .heading-text h1 b {
 }
 
 section#milestone-section .text-mile-area .heading-text h1 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 55px;
@@ -4849,13 +4858,13 @@ section#milestone-section .mile-function-code h1 span {
 }
 
 section#milestone-section .mile-function-code h1 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 60px;
 	line-height: 105.8%;
 	text-align: center;
-	color: #7B337D !important;
+	color: #FF6B35 !important;
 }
 
 section#milestone-section .mile-function-code h3 {
@@ -4864,7 +4873,7 @@ section#milestone-section .mile-function-code h3 {
 	line-height: 105.8%;
 	text-align: center;
 	color: #E0E0E0;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 }
 
 section#milestone-section .mile-function-code {
@@ -4876,7 +4885,7 @@ section#milestone-section .mile-function-code .mileswithtext:hover h1 {
 }
 
 section#milestone-section .mile-function-code .mileswithtext:hover {
-	background: linear-gradient(91deg, #7B337D 26.76%, #7B337D 75.8%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+	background: linear-gradient(91deg, #FF6B35 26.76%, #FF6B35 75.8%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
 	transition: .9s;
 	transform: translateY(10px);
 }
@@ -4889,7 +4898,7 @@ section#milestone-section .mision-vision .mis-vis p {
 
 section#milestone-section .mision-vision .mis-vis h2 {
 	color: #fff;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 36px;
@@ -4898,30 +4907,30 @@ section#milestone-section .mision-vision .mis-vis h2 {
 
 section#milestone-section .mision-vision .mis-vis {
 	/* background: #0d0d0d; */
-	background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%);
+	background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%);
 	box-shadow: 0px 7px 3px rgba(0, 0, 0, 0.09);
 	border-radius: 35px;
-	/* border: 2px solid #7B337D; */
+	/* border: 2px solid #FF6B35; */
 	padding: 40px 50px;
 	margin: 0 13px;
 	transition: .4s;
 }
 
 section#milestone-section .mision-vision .mis-vis:hover {
-	background: #7B337D;
-	background-image: linear-gradient(106deg, #7B337D 41%, #132c5a 100%);
+	background: #FF6B35;
+	background-image: linear-gradient(106deg, #FF6B35 41%, #CC5200 100%);
 	transition: .4s;
 }
 
 section#milestone-section .mision-vision .mis-vis h2 b {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 }
 
 section#milestone-section .mile-function-code .mileswithtext {
-	border: 2px solid #7B337D;
+	border: 2px solid #FF6B35;
 	background-image: url(../../images/hmebg.html);
 	box-shadow: 0px 7px 3px rgba(0, 0, 0, 0.09);
 	border-radius: 30px;
@@ -4965,7 +4974,7 @@ section#what-canwe-about .gallery-item {
 }
 
 section#what-canwe-about .gallery-about-section h6 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 167px;
@@ -5004,7 +5013,7 @@ section#what-canwe-about .gallery-about-section h6 {
 }
 
 section#call-toaction-section h2 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 34px;
@@ -5017,7 +5026,7 @@ section#call-toaction-section h2 {
 }
 
 section#call-toaction-section h2 b {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -5030,12 +5039,12 @@ section#call-toaction-section h2 b {
 
 /* SERVICES HEADER CSS START */
 .services-sec section#header h3.animated.fadeIn {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -5048,7 +5057,7 @@ section#services-solutions .heading-text p {
 }
 
 section#services-solutions .heading-text p b {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -5074,19 +5083,19 @@ section#services-solutions .tab-pane {
 
 section#services-solutions .nav-tabs .nav-link.active {
 	background: #ff10 !important;
-	color: #7B337D !important;
-	border-color: #7B337D;
+	color: #FF6B35 !important;
+	border-color: #FF6B35;
 }
 
 section#services-solutions .nav-tabs .nav-link.active em {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 section#services-solutions .nav-tabs .nav-link em {
 	font-size: 36px;
 	float: right;
 	font-style: inherit;
-	color: #7B337D69;
+	color: #FF6B3569;
 }
 
 section#services-solutions .tabsinner-sec-sol img.logodetails:hover {
@@ -5100,7 +5109,7 @@ section#services-solutions .tabsinner-sec-sol img.logodetails {
 
 section#services-solutions .nav-tabs .nav-link {
 	color: #fff;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-size: 18px;
 	line-height: 24px;
@@ -5136,7 +5145,7 @@ section#services-solutions .tabsinner-sec-sol {
 	border-radius: 30px;
 	color: #fff;
 	padding: 50px 50px;
-	border: 2px solid #7B337D;
+	border: 2px solid #FF6B35;
 }
 
 section#services-solutions .tools-services-section {
@@ -5167,7 +5176,7 @@ section#services-solutions .tools-services-section img.tools {
 }
 
 section#services-solutions .tools-services-section p b {
-	background: #7B337D;
+	background: #FF6B35;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -5175,15 +5184,15 @@ section#services-solutions .tools-services-section p b {
 }
 
 section#services-solutions .tabsinner-sec-sol h6 a {
-	border: 1px solid #7B337D;
+	border: 1px solid #FF6B35;
 	border-radius: 10px;
 	padding: 11px 30px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 105.8%;
-	color: #7B337D;
+	color: #FF6B35;
 	transition: .9s;
 }
 
@@ -5888,8 +5897,8 @@ section#header .service-logosection .first-inner-section-text h1 {
 	font-size: 56px;
 	line-height: 69px;
 	margin: 0;
-	/* -webkit-text-stroke: 1px #7B337D; */
-	-webkit-text-fill-color: #7B337D;
+	/* -webkit-text-stroke: 1px #FF6B35; */
+	-webkit-text-fill-color: #FF6B35;
 }
 
 section#header .service-logosection .first-inner-section-text .about-banner-buttons {
@@ -5916,7 +5925,7 @@ section#header .service-logosection .first-inner-section-text .about-banner-butt
 .log-quote-form form#contact textarea {
 	padding: 15px 20px;
 	background: #25252554;
-	border: 1px solid #7B337D;
+	border: 1px solid #FF6B35;
 	border-radius: 12px;
 	margin-bottom: 23px;
 	width: 100%;
@@ -5928,25 +5937,25 @@ section#header .service-logosection .first-inner-section-text .about-banner-butt
 .log-quote-form form ::placeholder {
 	color: #fff !important;
 	font-style: normal;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	text-transform: capitalize;
 }
 
 .log-quote-form form#contact {
 	padding: 30px 40px;
-	border: 4px solid #7B337D;
+	border: 4px solid #FF6B35;
 	margin: 0 70px;
 	border-radius: 30px;
 	background: #000;
 }
 
 .log-quote-form .formheading-quote h3 b {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 .log-quote-form .formheading-quote h3 {
 	color: #fff;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 }
 
 .log-quote-form .formheading-quote p {
@@ -5963,11 +5972,11 @@ section#header .service-logosection .first-inner-section-text .about-banner-butt
 	margin: 0 auto;
 	display: table;
 	width: 100%;
-	background-image: #7B337D;
+	background-image: #FF6B35;
 	border-radius: 15px;
 	color: #fff;
 	text-transform: capitalize;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	letter-spacing: 0;
 	font-size: 19px;
 	padding: 0 0 !important;
@@ -5978,8 +5987,8 @@ section#header .service-logosection .first-inner-section-text .about-banner-butt
 
 section#logo-about-us .logoabout-text h6 {
 	font-size: 50px;
-	color: #fff;
-	font-family: 'Anek Tamil';
+	color: #1A1A1A;
+	font-family: 'Montserrat';
 
 }
 
@@ -5989,8 +5998,8 @@ section#logo-about-us .logoabout-text h1 {
 	font-size: 91px;
 	line-height: 98px;
 	margin: 0;
-	-webkit-text-stroke: 1px #7B337D;
-	-webkit-text-fill-color: #7B337D;
+	-webkit-text-stroke: 1px #FF6B35;
+	-webkit-text-fill-color: #FF6B35;
 }
 
 section#logo-about-us .logoabout-text p {
@@ -6027,7 +6036,7 @@ section#logo-call-to-action .heading-text h1 {
 section#logo-call-to-action .container {
 	box-shadow: 0px 11px 8px 0px #0000003B;
 	border-radius: 30px;
-	border: 2px solid #7B337D;
+	border: 2px solid #FF6B35;
 	padding: 74px 60px;
 	position: relative;
 }
@@ -6052,7 +6061,7 @@ section#logoportfolio h1 {
 }
 
 section#logoportfolio .projct-box:hover {
-	background: linear-gradient(91deg, #7B337D 26.76%, #7B337D 75.8%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+	background: linear-gradient(91deg, #FF6B35 26.76%, #FF6B35 75.8%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
 	transition: .9s;
 	transform: translateY(10px);
 }
@@ -6064,7 +6073,7 @@ section#logoportfolio .projct-box h2 {
 
 section#logoportfolio .projct-box {
 	text-align: center;
-	border: 2px solid #7B337D;
+	border: 2px solid #FF6B35;
 	background: #2C2C2C;
 	box-shadow: 0px 7px 3px rgba(0, 0, 0, 0.09);
 	border-radius: 30px;
@@ -6075,7 +6084,7 @@ section#logoportfolio .projct-box {
 
 section#logoportfolio .projct-box h1 span {
 	color: #fff;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 60px;
@@ -6083,13 +6092,13 @@ section#logoportfolio .projct-box h1 span {
 }
 
 section#logoportfolio .projct-box h1 {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 60px;
 	line-height: 70px;
 	text-align: center;
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 section#logoportfolio .projct-box:hover h1 {
@@ -6147,7 +6156,7 @@ section#logoportfolio ul#myTab .nav-link {
 	background: #212121;
 	border: 1px solid #4B4B4B;
 	border-radius: 15px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -6160,7 +6169,7 @@ section#logoportfolio ul#myTab .nav-link {
 }
 
 section#logoportfolio ul#myTab li .nav-link.active {
-	background: #7B337D;
+	background: #FF6B35;
 	border: 1px solid #4B4B4B;
 	border-radius: 15px;
 	color: #fff !important;
@@ -6180,7 +6189,7 @@ section#logoportfolio ul#myTab li {
 }
 
 .logo-steps h3 {
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 125px;
 	font-weight: 700;
 	line-height: 135px;
@@ -6191,7 +6200,7 @@ section#logoportfolio ul#myTab li {
 
 .logo-steps h3 span {
 	color: #fff;
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 28px;
@@ -6207,11 +6216,11 @@ section#logoprocess-inner .processinner-text p {
 }
 
 section#logoprocess-inner .processinner-text h2 b {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 section#logoprocess-inner .processinner-text h2 {
-	color: #fff;
+	color: #1A1A1A;
 	font-size: 42px;
 	line-height: 52px;
 }
@@ -6236,7 +6245,7 @@ section#logoprocess-inner button.accordion-button.collapsed {
 	background: #252525;
 	border: 2px solid #2F2F2F;
 	border-radius: 25px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -6248,7 +6257,7 @@ section#logoprocess-inner button.accordion-button.collapsed {
 section#logoprocess-inner .accordion-button:not(.collapsed) {
 	background: #ff10 !important;
 	box-shadow: unset;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -6300,7 +6309,7 @@ section#logo-contact-form .about-banner-buttons {
 }
 
 .service-logosection .first-inner-section-text p {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 .service-logosection .first-inner-section-text b {
@@ -6336,7 +6345,7 @@ section#logo-contact-form button#contact-submit {
 	background: #000;
 	color: #fff;
 	border-radius: 20px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	letter-spacing: 1px;
 	font-size: 20px;
 	height: 59px;
@@ -6395,7 +6404,7 @@ section#intro-section .row {
 /* SOCIAL MEDIA LANDING PAGE */
 .service-logosection .social p {
 	font-size: 26px !important;
-	font-family: 'Anek Tamil' !important;
+	font-family: 'Montserrat' !important;
 }
 
 .service-logosection .social h2 {
@@ -6404,9 +6413,9 @@ section#intro-section .row {
 	font-size: 65px;
 	line-height: 75px;
 	margin: 0;
-	-webkit-text-stroke: 1px #7B337D;
-	-webkit-text-fill-color: #7B337D;
-	font-family: 'Anek Tamil';
+	-webkit-text-stroke: 1px #FF6B35;
+	-webkit-text-fill-color: #FF6B35;
+	font-family: 'Montserrat';
 }
 
 section#logo-about-us .social-media h1 {
@@ -6455,8 +6464,8 @@ section#mobileapp-details .innermobileapp h6 a {
 	position: absolute;
 	right: 0;
 	top: 38px;
-	background: #7B337D;
-	font-family: 'Anek Tamil';
+	background: #FF6B35;
+	font-family: 'Montserrat';
 	border-radius: 20px 0px 0px 20px;
 	opacity: 0;
 }
@@ -6468,7 +6477,7 @@ section#mobileapp-details .innermobileapp h5 a i {
 }
 
 section#mobileapp-details .innermobileapp h5 a {
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	color: #fff;
 	font-size: 15px;
 	line-height: 25px;
@@ -6483,7 +6492,7 @@ section#mobileapp-details .innermobileapp p {
 
 section#mobileapp-details .innermobileapp h3 {
 	color: #E0E0E0;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	padding: 40px 0 10px 0;
 }
 
@@ -6727,20 +6736,23 @@ section#header .portofliosec {
 
 .privacy-text p,
 .privacy-text h1,
-.privacy-text p b,
+.privacy-text p b {
+	color: #fff;
+}
+
 .termsncndtn p,
 .termsncndtn h1,
 .termsncndtn p b,
 .termsncndtn h4 {
-	color: #fff;
+	color: #1A1A1A;
 }
 
 .logoabout-text h3 {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 .logoabout-text h2 {
-	color: #7B337D;
+	color: #FF6B35;
 	font-size: 57px;
 }
 
@@ -6778,8 +6790,8 @@ section#header .portofliosec {
 	text-decoration: unset;
 	color: #fff;
 	border-radius: 30px;
-	border: 3px solid #7B337D;
-	font-family: 'Anek Tamil';
+	border: 3px solid #FF6B35;
+	font-family: 'Montserrat';
 	animation: pulse-animation 2s infinite;
 	letter-spacing: 0;
 	width: auto !important;
@@ -6787,7 +6799,7 @@ section#header .portofliosec {
 }
 
 .log-quote-form .btn-submits:hover {
-	background: #7B337D;
+	background: #FF6B35;
 }
 
 .popup {
@@ -6800,7 +6812,7 @@ section#header .portofliosec {
 }
 
 .header-top-nav a:hover {
-	color: #7B337D;
+	color: #FF6B35;
 	text-decoration: none;
 }
 
@@ -7016,7 +7028,7 @@ section#header .portofliosec {
 	width: auto;
 	height: auto;
 	text-align: left !important;
-	font-family: 'Anek Tamil', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: capitalize;
 	font-size: 16px;
 	font-weight: 500;
@@ -7035,7 +7047,7 @@ section#header .portofliosec {
 }
 
 .drop-btnn a:hover {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 /* NEW HOME CSS */
@@ -7057,11 +7069,11 @@ section#home-sec1 img {
 }
 
 section#home-sec1 .headings-home h1 b {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 section#home-sec1 .headings-home h1 {
-	color: #fff;
+	color: #1A1A1A;
 	font-size: 57px;
 	line-height: 58px;
 	padding: 0;
@@ -7071,7 +7083,7 @@ section#home-sec1 .headings-home h1 {
 .buttons ul li a:hover {
 	transition: .9s;
 	/* background: #fff; */
-	background-image: linear-gradient(106deg, #7B337D 41%, #132c5a 100%);
+	background-image: linear-gradient(106deg, #FF6B35 41%, #CC5200 100%);
 	box-shadow: 0px 0px 11px #ccc;
 	color: #fff;
 }
@@ -7081,13 +7093,13 @@ section#home-sec1 .headings-home h1 {
 }
 
 .buttons ul li a {
-	background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%);
+	background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%);
 	padding: 12px 35px;
 	text-decoration: unset;
 	color: #fff;
 	border-radius: 30px;
-	/* border: 3px solid #7B337D; */
-	font-family: 'Anek Tamil';
+	/* border: 3px solid #FF6B35; */
+	font-family: 'Montserrat';
 	animation: pulse-animation 2s infinite;
 }
 
@@ -7155,30 +7167,30 @@ section#intro-section ul li {
 }
 
 section#intro-section ul li a {
-	background: #7B337D;
+	background: #FF6B35;
 	padding: 17px 26px;
 	text-decoration: unset;
 	color: #fff;
 	border-radius: 30px;
-	border: 3px solid #7B337D;
-	font-family: 'Anek Tamil';
+	border: 3px solid #FF6B35;
+	font-family: 'Montserrat';
 	animation: pulse-animation 2s infinite;
 }
 
 section#intro-section ul li a:hover {
 	background: #ffffff;
-	color: #7B337D;
-	border: 3px solid #7B337D;
+	color: #FF6B35;
+	border: 3px solid #FF6B35;
 }
 
 section#price-plans-section {
-	background: #0f0e0e;
+	background: #FFFFFF;
 	border-bottom: 1px solid;
 }
 
 section#price-plans-section .price-heading-text h3 {
-	color: #7B337D;
-	font-family: 'Anek Tamil';
+	color: #FF6B35;
+	font-family: 'Montserrat';
 	margin: 0px;
 }
 
@@ -7187,7 +7199,7 @@ section#price-plans-section .price-inner-plan:hover h3 {
 }
 
 section#testimonials-sections .heading-text h3 b {
-	color: #7B337D;
+	color: #FF6B35;
 	font-weight: bold;
 }
 
@@ -7237,7 +7249,7 @@ form.small-form label.error {
 	font-size: 40px;
 	line-height: 50px;
 	margin-bottom: 10px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 }
 
 #new-custom-form .form {
@@ -7249,11 +7261,11 @@ section#new-custom-form form#contact .name-email fieldset {
 }
 
 section#testimonials-sections h1 b {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 section#testimonials-sections h1 {
-	color: #fff;
+	color: #1A1A1A;
 }
 
 section#new-custom-form form#contact input {
@@ -7284,13 +7296,13 @@ section#new-custom-form form#contact textarea {
 }
 
 section#new-custom-form button#contact-submit {
-	background: #7B337D;
+	background: #FF6B35;
 	color: #fff;
 	padding: 7px 0 !important;
 	width: 10% !important;
 	height: auto;
 	border-radius: 30px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	letter-spacing: 0;
 	font-size: 23px;
 	margin: 10px auto;
@@ -7312,7 +7324,7 @@ section#new-custom-form {
 
 /* OUR BUSINESS CSS */
 section#our-ecom-bus .text-box-business:hover {
-	background: linear-gradient(125deg, #132c5a 0%, #132c5a 21%, #132c5a 38%, #3157a564 72%, #7B337D 100%) 0% 0% no-repeat;
+	background: linear-gradient(125deg, #CC5200 0%, #CC5200 21%, #CC5200 38%, #FF8C5A64 72%, #FF6B35 100%) 0% 0% no-repeat;
 	transition: .4s;
 }
 
@@ -7327,7 +7339,7 @@ section#our-ecom-bus .text-box-business h3 a {
 section#our-ecom-bus .text-box-business h3 {
 	font-size: 25px;
 	color: #fff;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	margin-top: 20px;
 	line-height: 30px;
 	font-weight: bold;
@@ -7338,13 +7350,13 @@ section#our-ecom-bus .text-box-business h3 {
 section#our-ecom-bus .text-box-business {
 	position: relative;
 	padding: 24px 30px;
-	border: 1px solid #7B337D;
+	border: 1px solid #FF6B35;
 	border-radius: 10px;
 	margin-bottom: 42px;
 	text-align: center;
-	box-shadow: 0px 1px 9px #7B337D;
+	box-shadow: 0px 1px 9px #FF6B35;
 	/* background-image: url(../../images/hereabt.jpg); */
-	background: linear-gradient(360deg, rgba(33, 5, 53, 1) 0%, rgba(123, 51, 125, 1) 100%);
+	background: linear-gradient(360deg, rgba(204, 82, 0, 1) 0%, rgba(255, 140, 90, 1) 100%);
 	background-size: cover;
 	background-repeat: no-repeat;
 	transition: .4s;
@@ -7386,7 +7398,7 @@ section#growth-success .milebox-success h4 {
 }
 
 section#growth-success .milebox-success p.heading b {
-	color: #7B337D;
+	color: #FF6B35;
 	font-weight: bold;
 }
 
@@ -7403,7 +7415,7 @@ section#growth-success .milebox-success p {
 }
 
 section#growth-success .milebox-success:hover {
-	background: #3157a5;
+	background: #FF8C5A;
 }
 
 section#growth-success .milebox-success:hover p b {
@@ -7427,7 +7439,7 @@ section#complete-solutions .solutions-lists ul li {
 	padding: 12px 0px 12px 60px;
 	font-size: 17px;
 	border-radius: 10px;
-	background: linear-gradient(to right, #7B337D 50%, #0f0e0e 50%);
+	background: linear-gradient(to right, #FF6B35 50%, #FFFFFF 50%);
 	background-size: 200% 100%;
 	background-position: right bottom;
 	transition: background-position 0.5s ease-out;
@@ -7443,12 +7455,12 @@ section#complete-solutions .solutions-lists ul {
 
 section#complete-solutions .solutions-lists ul li:hover span {
 	background: #fff;
-	color: #132c5a;
+	color: #CC5200;
 }
 
 section#complete-solutions .solutions-lists ul li span {
 	position: absolute;
-	background: #7B337D;
+	background: #FF6B35;
 	width: 50px;
 	line-height: 50px;
 	text-align: center;
@@ -7471,7 +7483,7 @@ section#proven-ecommerce .client-icons .card img {
 }
 
 section#proven-ecommerce .slick-current img {
-	border-color: #7B337D !important;
+	border-color: #FF6B35 !important;
 }
 
 section#proven-ecommerce .slick-list.draggable {
@@ -7518,7 +7530,7 @@ section#header #nav>ul li {
 }
 
 section#header #nav>ul li a:hover {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 section#header #nav>ul {
@@ -7528,8 +7540,8 @@ section#header #nav>ul {
 }
 
 section#header #nav>ul li.call-header a:hover {
-	/* background: #132c5a; */
-	background-image: linear-gradient(106deg, #7B337D 41%, #132c5a 100%);
+	/* background: #CC5200; */
+	background-image: linear-gradient(106deg, #FF6B35 41%, #CC5200 100%);
 }
 
 section#header #nav>ul li .my-dropdown li {
@@ -7537,8 +7549,8 @@ section#header #nav>ul li .my-dropdown li {
 }
 
 section#header #nav>ul li.call-header a {
-	/* background: #7B337D; */
-	background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%);
+	/* background: #FF6B35; */
+	background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%);
 	padding: 12px 40px;
 	border-radius: 30px;
 	transition: .9s;
@@ -7594,7 +7606,7 @@ section#header {
 }
 
 .mainfba .fbatext {
-	background: #7B337D;
+	background: #FF6B35;
 	border-radius: 50%;
 	padding: 80px 50px;
 }
@@ -7616,7 +7628,7 @@ section#header {
 
 .mainfba .fbatext h4 {
 	color: #000;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-weight: bold;
 }
 
@@ -7650,7 +7662,7 @@ section#header {
 
 .mainfba1 .fbatext1 h4 {
 	color: #000;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	font-weight: bold;
 	background: #ff9600;
 	text-transform: uppercase;
@@ -7702,13 +7714,13 @@ section#fba3 .heading-text-banner:hover img {
 section#fba3 .heading-text-banner {
 	text-align: center;
 	background-color: transparent;
-	background-image: linear-gradient(180deg, #7B337D 0, #132c5a 90%);
+	background-image: linear-gradient(180deg, #FF6B35 0, #CC5200 90%);
 	border-radius: 40px;
 	transition: .4s;
 }
 
 section#fba3 .heading-text-banner:hover {
-	background: linear-gradient(125deg, #132c5a 0%, #132c5a 21%, #132c5a 38%, #3157a564 72%, #7B337D 100%) 0% 0% no-repeat;
+	background: linear-gradient(125deg, #CC5200 0%, #CC5200 21%, #CC5200 38%, #FF8C5A64 72%, #FF6B35 100%) 0% 0% no-repeat;
 	transition: .4s;
 }
 
@@ -7723,11 +7735,11 @@ section#contentsection-right p {
 }
 
 section#contentsection-right h2 b {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 section#contentsection-right h2 {
-	color: #fff;
+	color: #1A1A1A;
 }
 
 section#contentsection-right .row {
@@ -7745,19 +7757,20 @@ section#price-secamz p {
 }
 
 section#price-secamz h1 b {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 section#price-secamz h1 {
 	text-align: center;
-	color: #fff;
+	color: #1A1A1A;
 }
 
 section#price-secamz .mysec {
 	width: 80%;
 	padding: 80px 30px 0px 30px;
-	color: #fff;
+	color: #1A1A1A;
 	border-radius: 30px;
+	background-color: #FFF4ED;
 	background-image: url(../../images/hmebg.png);
 }
 
@@ -7772,7 +7785,7 @@ section#price-secamz .mysec .priclist ul li:before {
 	position: absolute;
 	left: -17px;
 	top: 2px;
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 section#price-secamz .mysec .priclist ul {
@@ -7781,10 +7794,10 @@ section#price-secamz .mysec .priclist ul {
 }
 
 section#price-secamz .mysec .priclist h4 {
-	color: #fff;
+	color: #1A1A1A;
 	font-size: 30px;
 	line-height: 40px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 }
 
 section#price-secamz .mysec h6 {
@@ -7796,7 +7809,7 @@ section#price-secamz .mysec h6 {
 }
 
 section#price-secamz .mysec h5 {
-	color: #7B337D;
+	color: #FF6B35;
 	font-size: 32px;
 	line-height: 40px;
 	font-weight: bold;
@@ -7817,7 +7830,7 @@ section#price-secamz .price {
 
 section#price-secamz .mysec h4 {
 	font-size: 20px;
-	color: #fff;
+	color: #1A1A1A;
 	line-height: 43px;
 	font-weight: 800;
 	margin-bottom: 0;
@@ -7835,7 +7848,7 @@ section#price-secamz .mysec button.getstart:hover {
 
 section#price-secamz .mysec button.getstart {
 	background: #fff;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 	letter-spacing: 0;
 	font-size: 15px;
 	padding: 7px 29px !important;
@@ -7849,20 +7862,20 @@ section#contentsection-right h2 {
 	text-transform: capitalize;
 	font-size: 36px;
 	line-height: 46px;
-	font-family: 'Anek Tamil';
+	font-family: 'Montserrat';
 }
 
 /* .whysches a {
-	background: #7B337D !important;
+	background: #FF6B35 !important;
 	color: #fff !important;
 } */
 
 .whysches h1 b {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 .whysches h1 {
-	color: #fff;
+	color: #1A1A1A;
 	font-weight: bold;
 }
 
@@ -7894,8 +7907,8 @@ section#home-sec1 .home-heading1 {
 }
 
 section#our-ecom-bus .heading-text h4 {
-	color: #fff;
-	font-family: 'Anek Tamil';
+	color: #1A1A1A;
+	font-family: 'Montserrat';
 	font-size: 31px;
 	line-height: 41px;
 	margin-bottom: 20px;
@@ -7956,13 +7969,13 @@ section#fbba .stepsss {
 	border-radius: 20px;
 	padding: 20px;
 	background-color: transparent;
-	background-image: linear-gradient(0deg, #7B337D 0, #132c5a 90%);
+	background-image: linear-gradient(0deg, #FF6B35 0, #CC5200 90%);
 	transition: .4s;
 	height: 325px;
 }
 
 section#fbba .stepsss:hover {
-	background: linear-gradient(125deg, #132c5a 0%, #132c5a 21%, #132c5a 38%, #3157a564 72%, #7B337D 100%) 0% 0% no-repeat;
+	background: linear-gradient(125deg, #CC5200 0%, #CC5200 21%, #CC5200 38%, #FF8C5A64 72%, #FF6B35 100%) 0% 0% no-repeat;
 	transition: .4s;
 }
 
@@ -8007,7 +8020,7 @@ footer#main-footer-sections::before {
 }
 
 .copyright-section .social-links li i {
-	background: #7B337D;
+	background: #FF6B35;
 	border: 1px solid #443f3f;
 	color: #fff;
 	width: 40px;
@@ -8021,7 +8034,7 @@ footer#main-footer-sections::before {
 	font-size: 62px;
 	line-height: 54px;
 	font-weight: bold;
-	color: #7B337D !important;
+	color: #FF6B35 !important;
 }
 
 section#our-ecom-bus .text-box-business img {
@@ -8063,8 +8076,8 @@ form label span {
 }
 
 .hs-button {
-	background: #7B337D !important;
-	border: #7B337D !important;
+	background: #FF6B35 !important;
+	border: #FF6B35 !important;
 	padding: 20px !important;
 }
 
@@ -8152,7 +8165,7 @@ form.small-form input.bnnr-form-btn {
 	border-radius: 15px;
 	font-style: normal;
 	padding: 26px 30px;
-	color: #7b337d;
+	color: #FF6B35;
 	box-shadow: unset;
 	border-bottom: 1px solid #fff;
 	box-shadow: none;
@@ -8250,9 +8263,9 @@ ul.form-section.page-section li {
 }
 
 input.blue_btn {
-	background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%) !important;
-	/* background: #7B337D !important; */
-	/* border: #7B337D !important; */
+	background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%) !important;
+	/* background: #FF6B35 !important; */
+	/* border: #FF6B35 !important; */
 	padding: 20px !important;
 	height: 100% !important;
 	line-height: 1 !important;
@@ -8506,7 +8519,7 @@ section#testimonials-sections .heading-text p {
 	margin: 0 5px;
 	padding: 0;
 	cursor: pointer;
-	background: #7B337D;
+	background: #FF6B35;
 	border-radius: 45px;
 }
 
@@ -8539,7 +8552,7 @@ section#testimonials-sections .heading-text p {
 }
 
 .requirebox h2 {
-	color: #fff;
+	color: #1A1A1A;
 	font-size: 20px;
 	font-weight: 700;
 }
@@ -8556,7 +8569,7 @@ section#testimonials-sections .heading-text p {
 
 section.ecom-requirements {
 	padding: 70px 0px;
-	background: radial-gradient(circle, #7b337d2b 0%, #132c5abf 100%) !important;
+	background: radial-gradient(circle, #FF6B352b 0%, #CC5200bf 100%) !important;
 }
 
 .solutions-lists {
@@ -8581,7 +8594,7 @@ section.ecom-requirements {
 }
 
 .heading-text ul li {
-	font-family: Anek Tamil;
+	font-family: Montserrat;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
@@ -8590,12 +8603,12 @@ section.ecom-requirements {
 }
 
 .homebnnr-txt h3 {
-	background-color: #7b337d52;
+	background-color: #FF6B3526;
 	margin: 0px 0px 20px 0px;
 	padding: 15px 17px 13px 17px;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: #7b337d;
+	border-color: #FF6B35;
 	border-radius: 50px 50px 50px 50px;
 	font-family: "DM Sans", Sans-serif;
 	font-size: 12px;
@@ -8603,7 +8616,7 @@ section.ecom-requirements {
 	text-transform: uppercase;
 	line-height: 1rem;
 	letter-spacing: 1.5px;
-	color: #ffffff;
+	color: #FF6B35;
 	width: 52%;
 	text-align: center;
 }
@@ -8614,16 +8627,16 @@ section.ecom-requirements {
 	text-transform: capitalize;
 	line-height: 1.1em;
 	letter-spacing: 0px;
-	color: #ffffff;
+	color: #1A1A1A;
 	font-weight: 700;
 }
 
 .homebnnr-txt h1 span {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 .homebnnr-txt p {
-	color: #fff;
+	color: #1A1A1A;
 	font-size: 20px;
 	line-height: 32px;
 }
@@ -8638,7 +8651,7 @@ section.ecom-requirements {
 
 .bnr-form-box {
 	background-color: transparent;
-	background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%);
+	background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%);
 	padding: 20px;
 	border-radius: 15px;
 	margin: 0px 0px 0px 40px;
@@ -8686,11 +8699,11 @@ section.abticon .container .row {
 	padding: 25px;
 	border-radius: 30px;
 	background-color: transparent;
-	background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%);
+	background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%);
 }
 
 .iconabt-box {
-	background-color: #FFFFFF1A;
+	background-color: #FFE3D1;
 	padding: 25px 15px 23px 15px;
 	border-radius: 20px 20px 20px 20px;
 	transition: .4s;
@@ -8698,7 +8711,7 @@ section.abticon .container .row {
 }
 
 .iconabt-box i {
-	color: #fff;
+	color: #FF6B35;
 	font-size: 46px;
 	padding-bottom: 10px;
 }
@@ -8709,26 +8722,26 @@ section.abticon .container .row {
 	font-weight: 600;
 	text-transform: capitalize;
 	line-height: 1.3em;
-	color: #fff;
+	color: #1A1A1A;
 }
 
 .iconabt-box p {
 	font-family: "DM Sans", Sans-serif;
-	color: #fff;
+	color: #1A1A1A;
 }
 
 .iconabt-box:hover {
-	background-color: #FFFFFF5C;
+	background-color: #FFD0B0;
 	transition: .4s;
 }
 
 .serv-head-txt h3 {
-	background-color: #132c5a21;
+	background-color: #00000026;
 	margin: 0px 0px 20px 0px;
 	padding: 15px 17px 13px 17px;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: #132c5a;
+	border-color: #ffffff;
 	border-radius: 50px 50px 50px 50px;
 	font-family: "DM Sans", Sans-serif;
 	font-size: 12px;
@@ -8774,7 +8787,7 @@ section.homeservice {
 	padding: 18px 0 70px 0;
 	position: relative;
 	background-color: transparent;
-	background-image: linear-gradient(180deg, #132c5a 82%, #3157a5 114%);
+	background-image: linear-gradient(180deg, #CC5200 82%, #FF8C5A 114%);
 	border-radius: 30px 30px 0px 0px;
 	background-size: 100% 100%;
 }
@@ -8799,7 +8812,7 @@ section.homeservice::before {
 	height: 8%;
 	position: absolute;
 	bottom: 0;
-	background: #0f0e0e;
+	background: #FFFFFF;
 	z-index: 0;
 } */
 
@@ -8808,7 +8821,7 @@ section.homeservice::before {
 }
 
 .ser-box {
-	background-color: #EEEDFE;
+	background-color: #FFE3D1;
 	padding: 20px 20px 40px 20px;
 	border-radius: 20px;
 	transition: .4s;
@@ -8822,7 +8835,7 @@ section.homeservice::before {
 
 .ser-box:hover {
 	transition: .4s;
-	background-color: #132c5a;
+	background-color: #CC5200;
 }
 
 .ser-box img {
@@ -8855,7 +8868,7 @@ section.myhomebnnr {
 }
 
 .ser-box .serv-btn a {
-	    background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%);
+	    background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%);
 	font-family: "DM Sans", Sans-serif;
 	font-size: 15px;
 	font-weight: 600;
@@ -8864,7 +8877,7 @@ section.myhomebnnr {
 	letter-spacing: 0.5px;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: #7B337D;
+	border-color: #FF6B35;
 	border-radius: 50px 50px 50px 50px;
 	padding: 18px 32px 18px 32px;
 	text-decoration: none;
@@ -8872,18 +8885,18 @@ section.myhomebnnr {
 }
 
 .ser-box:hover .serv-btn a {
-	background-color: #132c5a33;
+	background-color: #CC520033;
 	color: #fff;
 	border-color: #fff;
 }
 
 .projecttxt h3 {
-	background-color: #7b337d52;
+	background-color: #FF6B3526;
 	margin: 0px 0px 20px 0px;
 	padding: 15px 17px 13px 17px;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: #7b337d;
+	border-color: #FF6B35;
 	border-radius: 50px 50px 50px 50px;
 	font-family: "DM Sans", Sans-serif;
 	font-size: 12px;
@@ -8891,7 +8904,7 @@ section.myhomebnnr {
 	text-transform: uppercase;
 	line-height: 1rem;
 	letter-spacing: 1.5px;
-	color: #ffffff;
+	color: #FF6B35;
 	width: 44%;
 	text-align: center;
 }
@@ -8909,7 +8922,7 @@ section.ourproject {
 }
 
 .projecttxt h2 span {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 .projecttxt p {
@@ -8956,12 +8969,12 @@ section.ourproject .container .row.projectsliderbox {
 }
 
 .processtxt h3 {
-	background-color: #7b337d52;
+	background-color: #FF6B3526;
 	margin: 0px 0px 20px 0px;
 	padding: 15px 17px 13px 17px;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: #7b337d;
+	border-color: #FF6B35;
 	border-radius: 50px 50px 50px 50px;
 	font-family: "DM Sans", Sans-serif;
 	font-size: 12px;
@@ -8969,7 +8982,7 @@ section.ourproject .container .row.projectsliderbox {
 	text-transform: uppercase;
 	line-height: 1rem;
 	letter-spacing: 1.5px;
-	color: #ffffff;
+	color: #FF6B35;
 	width: 20%;
 	text-align: center;
 }
@@ -8991,7 +9004,7 @@ section.ourproject .container .row.projectsliderbox {
 }
 
 .processtxt h2 span {
-	color: #7B337D;
+	color: #FF6B35;
 }
 
 .processtxt p {
@@ -9004,7 +9017,7 @@ section.ourproject .container .row.projectsliderbox {
 .process-ico i {
 	width: 90px;
 	height: 90px;
-	background: #7B337D;
+	background: #FF6B35;
 	font-size: 40px;
 	border-radius: 100%;
 	color: #fff;
@@ -9031,7 +9044,7 @@ section.ourproject .container .row.projectsliderbox {
 
 .process-box h4 {
 	margin: 5px 0px 15px 0px;
-	color: #ffffff;
+	color: #1A1A1A;
 	font-family: "DM Sans", Sans-serif;
 	font-size: 18px;
 	font-weight: 600;
@@ -9041,7 +9054,7 @@ section.ourproject .container .row.projectsliderbox {
 }
 
 .process-box p {
-	color: #fff;
+	color: #1A1A1A;
 	text-align: center;
 }
 
@@ -9058,7 +9071,7 @@ section.clientreviews {
 	padding: 70px 0 70px 0;
 	position: relative;
 	background-color: transparent;
-	background-image: linear-gradient(180deg, #132c5a 60%, #3157a5 100%);
+	background-image: linear-gradient(180deg, #CC5200 60%, #FF8C5A 100%);
 	margin-bottom: 70px;
 }
 
@@ -9167,11 +9180,11 @@ section.clientreviews::before {
 }
 
 section.homeservice .serv-head-txt .buttons ul li a {
-	background-image: linear-gradient(106deg, #132c5a 41%, #7B337D 100%);
+	background-image: linear-gradient(106deg, #CC5200 41%, #FF6B35 100%);
 	color: #fff;
 }
 section.homeservice .serv-head-txt .buttons ul li a:hover{
-	background-image: linear-gradient(106deg, #7B337D 41%, #132c5a 100%);
+	background-image: linear-gradient(106deg, #FF6B35 41%, #CC5200 100%);
 }
 @media only screen and (min-width:300px) and (max-width:519px) {
 	.homebnnr-txt h3 {
@@ -9321,9 +9334,9 @@ section.homeservice .serv-head-txt .buttons ul li a:hover{
 }
 /* Global design refinements */
 body {
-  background: radial-gradient(circle at top center, rgba(59,108,193,0.12), transparent 36%), #101116;
-  color: #e9efff;
-  font-family: 'Anek Tamil', sans-serif;
+  background: radial-gradient(circle at top center, rgba(255,107,53,0.08), transparent 36%), #FFFFFF;
+  color: #1A1A1A;
+  font-family: 'Inter', sans-serif;
 }
 section,
 .wrapper,
@@ -9339,15 +9352,15 @@ button,
 input,
 select,
 textarea {
-  font-family: 'Anek Tamil', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 a {
-  color: #b8d5ff;
+  color: #FF6B35;
   transition: color .2s ease, opacity .2s ease, transform .2s ease;
 }
 a:hover,
 a:focus {
-  color: #7cb5ff;
+  color: #CC5200;
   opacity: 1;
   text-decoration: underline;
 }
@@ -9357,10 +9370,10 @@ input[type="button"],
 input[type="submit"],
 input[type="reset"] {
   border-radius: 999px;
-  background: linear-gradient(135deg, #3b6cc1 0%, #5e95ff 100%);
+  background: linear-gradient(135deg, #FF6B35 0%, #FFB36B 100%);
   color: #fff;
   border: none;
-  box-shadow: 0 18px 36px rgba(59,108,193,0.18);
+  box-shadow: 0 18px 36px rgba(255,107,53,0.18);
   transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease;
 }
 button:hover,
@@ -9369,51 +9382,51 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover {
   transform: translateY(-2px);
-  box-shadow: 0 24px 46px rgba(59,108,193,0.24);
+  box-shadow: 0 24px 46px rgba(255,107,53,0.24);
 }
 .feature-list section {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: #FFF4ED;
+  border: 1px solid rgba(255,107,53,0.12);
 }
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
 form select,
 form textarea {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.12);
-  box-shadow: inset 0 10px 30px rgba(0,0,0,0.12);
-  color: #e9efff;
+  background: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.12);
+  box-shadow: inset 0 4px 12px rgba(0,0,0,0.04);
+  color: #1A1A1A;
 }
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="password"]:focus,
 form select:focus,
 form textarea:focus {
-  border-color: #5e95ff;
+  border-color: #FF6B35;
   outline: none;
 }
 .wrapper.style2 {
-  background: rgba(255,255,255,0.03);
-  box-shadow: 0 22px 52px rgba(0,0,0,0.18);
+  background: #FFF4ED;
+  box-shadow: 0 22px 52px rgba(0,0,0,0.06);
 }
 .wrapper.style3 {
-  background: rgba(255,255,255,0.02);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.08);
 }
 .wrapper.style1 {
-  background: rgba(59,108,193,0.12);
-  box-shadow: 0 30px 70px rgba(0,0,0,0.24);
+  background: rgba(255,107,53,0.08);
+  box-shadow: 0 30px 70px rgba(0,0,0,0.08);
 }
 #header {
-  background: rgba(16,16,22,0.95) !important;
+  background: rgba(255,255,255,0.95) !important;
   backdrop-filter: blur(10px);
 }
 #nav>ul li a {
   transition: color .2s ease, background .2s ease;
 }
 #nav>ul li.current a {
-  color: #7cb5ff;
+  color: #FF6B35;
   background: transparent;
   -webkit-text-fill-color: unset;
 }
