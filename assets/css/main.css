@@ -8835,7 +8835,8 @@ section.homeservice::before {
 
 .ser-box:hover {
 	transition: .4s;
-	background-color: #CC5200;
+	background-color: #ffffff;
+	color: black;
 }
 
 .ser-box img {
@@ -8864,7 +8865,7 @@ section.myhomebnnr {
 
 .ser-box:hover h3,
 .ser-box:hover p {
-	color: #fff;
+	color: black;
 }
 
 .ser-box .serv-btn a {

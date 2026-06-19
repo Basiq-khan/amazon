@@ -151,8 +151,8 @@
       <div class="row">
          <div class="col-sm-6 homebnnr">
             <div class="homebnnr-txt">
-               <h3>Welcome to Ecom Automates </h3>
-               <h1>We <span>Automate Your E Commerce </span>for Maximum Growth</h1>
+               <h3 style="font-size: 17px; font-weight:800">Welcome to Ecom Automates </h3>
+               <h1 style="font-size: 44px; text-transform: uppercase;">We <span>Automate Your E Commerce </span>for Maximum Growth</h1>
                <p>Ecom Automates provides complete business solutions for Amazon, Walmart, Shopify, TikTok Shop, YouTube Automation, eBay, Etsy, and LLC Registration. Our services for e-commerce automation range from Amazon FBA, TikTok Shop, to Walmart WFS, saving you time, scaling quickly, and increasing profits with hassle-free store operations and skilled strategies.</p>
             </div>
             <div class="buttons">
@@ -286,10 +286,10 @@
    <div class="container">
       <div class="row">
          <div class="col-sm-2"></div>
-         <div class="col-sm-8">
+         <div class="col-sm-8" style="padding-top: 50px;">
             <div class="serv-head-txt">
-               <h3>Our Services</h3>
-               <h2>We <span>Fully Manage </span>Your E-commerce</h2>
+               <h3 style="font-size: 17px; font-weight:800">Our Services</h3>
+               <h2 style="font-size: 44px; text-transform: uppercase; text-align: center;">We <span>Fully Manage </span>Your <br> E-commerce</h2>
                <p>From streamline inventory management for Amazon FBA to full account management, we build scalable eCommerce business solutions that grow with you.</p>
                <div class="buttons">
                   <ul>
@@ -391,8 +391,8 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="projecttxt">
-                    <h3>Our Projects</h3>
-                    <h2><span>The Projecs </span class="homebnnr-txt ";>We Have Done So Far</h2>
+                    <h3 style="font-size: 17px; font-weight:800">Our Projects</h3>
+                    <h2 style="font-size: 44px; text-transform: uppercase;"><span>The Projecs </span class="homebnnr-txt ";>We Have Done So Far</h2>
                 </div>
             </div>
             <div class="col-sm-2"></div>
@@ -404,50 +404,99 @@
         </div>
         <div class="row projectsliderbox">
             <div class="col-sm-12">
-                <div class="projectslider">
-                    <div>
-                        <div class="projectslide">
-                            <img src="images/laptop01.jpg" alt="" srcset="">
+                <div class="project-slider-outer">
+                    <div class="projectslider-wrapper">
+                    <div class="projectslider">
+                        <div>
+                            <div class="projectslide">
+                                <img src="images/laptop01.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="projectslide">
+                                <img src="images/laptop02.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="projectslide">
+                                <img src="images/laptop03.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="projectslide">
+                                <img src="images/laptop04.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="projectslide">
+                                <img src="images/laptop05.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="projectslide">
+                                <img src="images/laptop06.jpg" alt="" srcset="">
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="projectslide">
-                            <img src="images/laptop02.jpg" alt="" srcset="">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="projectslide">
-                            <img src="images/laptop03.jpg" alt="" srcset="">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="projectslide">
-                            <img src="images/laptop04.jpg" alt="" srcset="">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="projectslide">
-                            <img src="images/laptop05.jpg" alt="" srcset="">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="projectslide">
-                            <img src="images/laptop06.jpg" alt="" srcset="">
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <button class="project-prev-btn" aria-label="Previous slide">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+    </button>
+    <button class="project-next-btn" aria-label="Next slide">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </button>
 </section>
+<style>
+.ourproject {
+    position: relative;
+}
+.project-prev-btn,
+.project-next-btn {
+    position: absolute !important;
+    width: 48px !important;
+    height: 48px !important;
+    max-width: 48px !important;
+    min-width: 48px !important;
+    max-height: 48px !important;
+    min-height: 48px !important;
+    border-radius: 50% !important;
+    border: 2px solid #FF6B35 !important;
+    background: rgba(255,255,255,0.85) !important;
+    color: #FF6B35 !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    line-height: 48px !important;
+    vertical-align: middle !important;
+    display: block !important;
+    transition: background 0.3s, color 0.3s !important;
+    z-index: 20 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    transform: translateY(-50%) !important;
+    overflow: hidden !important;
+}
+.project-prev-btn { left: 20px; }
+.project-next-btn { right: 20px; }
+.project-prev-btn:hover,
+.project-next-btn:hover {
+    background: #FF6B35 !important;
+    color: #fff !important;
+    transform: translateY(-50%) !important;
+}
+</style>
 <section class="process">
     <div class="container">
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
                 <div class="processtxt">
-                    <h3>Our Process</h3>
-                    <h2><span>How </span>We Work</h2>
+                    <h3 style="font-size: 17px; font-weight:800">Our Process</h3>
+                    <h2 style="font-size: 44px; text-transform: uppercase;"><span>How </span>We Work</h2>
                     <p style="color: black !important;">At Ecom Automates, we take a streamlined approach to help your e-commerce store run profitably and efficiently. From planning to automation to optimize growth and minimize labor, so you can maintain focus on growing your brand.</p>
                 </div>
             </div>
@@ -510,8 +559,8 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="test-txt">
-                    <h3>Testimonials</h3>
-                    <h2>What Sellers <span> Say About Us</span></h2>
+                    <h3 style="font-size: 17px; font-weight:800 padding-right : 29px;">Testimonials</h3>
+                    <h2 style="font-size: 44px; text-transform: uppercase;">What Sellers <span> Say About Us</span></h2>
                 </div>
             </div>
             <!-- <div class="col-sm-2"></div> -->

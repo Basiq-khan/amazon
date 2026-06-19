@@ -233,8 +233,8 @@ $('.projectslider').slick({
 	centerMode: true,
 	centerPadding: '60px',
 	slidesToShow: 3,
-	arrows:false,
-	dots:false,
+	arrows: false,
+	dots: false,
 	autoplay: true,
 	autoplaySpeed: 2000,
 	loop: true,
@@ -261,6 +261,23 @@ $('.projectslider').slick({
 		}
 	]
 });
+
+$('.project-prev-btn').on('click', function () {
+	$('.projectslider').slick('slickPrev');
+});
+$('.project-next-btn').on('click', function () {
+	$('.projectslider').slick('slickNext');
+});
+
+function positionProjectBtns() {
+	var $section = $('.ourproject');
+	var $wrapper = $('.projectslider-wrapper');
+	if (!$section.length || !$wrapper.length) return;
+	var topRelToSection = $wrapper.offset().top - $section.offset().top + $wrapper.outerHeight() / 2;
+	$('.project-prev-btn, .project-next-btn').css('top', topRelToSection + 'px');
+}
+positionProjectBtns();
+$(window).on('resize', positionProjectBtns);
 $('.servicesiconslider').slick({
 	dots: true,
 	arrows: false,
