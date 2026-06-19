@@ -2369,12 +2369,12 @@ section#header #logo img {
 }
 
 #nav>ul>li:hover>a {
-	color: #CC5200;
+	color: black;
 }
 
 #nav>ul>li.active>a,
 #nav>ul>li.active>span {
-	color: #CC5200;
+	color: black;
 }
 
 .dropotron {

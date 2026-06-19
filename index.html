@@ -33,7 +33,7 @@
    <body class="homepage is-preload">
       <div id="page-wrapper">
          <!-- top-header -->
-         <div class="headerouter">
+         <div class="headerouter" style="background-color: #fff !important;">
             <section id="header" class="wrapper">
                <!-- Logo -->
                <div class="container">
@@ -43,7 +43,7 @@
                      </div>
                      <div class="col-md-9">
                         <!-- Nav -->
-                        <nav id="nav">
+                        <nav id="nav" >
                            <ul>
                               <li><a href="index.html">Home</a></li>
                               <li><a href="about-us/ecomautomates.com/about-us.html">About Us</a></li>
@@ -146,14 +146,23 @@
                </div>
             </section>
          </div>
-      </div><section class="myhomebnnr " style="background-image: url('images/homebnnr.webp');">
-   <div class="container">
+      </div><section class="myhomebnnr" style="position: relative; overflow: hidden; width: 100%; min-height: 100vh; display: flex; align-items: center;">
+   
+   <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+      <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
+         <source src="assets/0_Woman_Phone_1920x1080.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.55);"></div>
+   </div>
+
+   <div class="container" style="position: relative; z-index: 2; width: 100%;">
       <div class="row">
          <div class="col-sm-6 homebnnr">
             <div class="homebnnr-txt">
-               <h3 style="font-size: 17px; font-weight:800">Welcome to Ecom Automates </h3>
-               <h1 style="font-size: 44px; text-transform: uppercase;">We <span>Automate Your E Commerce </span>for Maximum Growth</h1>
-               <p>Ecom Automates provides complete business solutions for Amazon, Walmart, Shopify, TikTok Shop, YouTube Automation, eBay, Etsy, and LLC Registration. Our services for e-commerce automation range from Amazon FBA, TikTok Shop, to Walmart WFS, saving you time, scaling quickly, and increasing profits with hassle-free store operations and skilled strategies.</p>
+               <h3 style="font-size: 17px; font-weight:800; color: white !important; ">Welcome to Ecom Automates </h3>
+               <h1 style="font-size: 44px; text-transform: uppercase; color: white !important;">We <span>Automate Your E Commerce </span>for Maximum Growth</h1>
+               <p style="color: white !important;">Ecom Automates provides complete business solutions for Amazon, Walmart, Shopify, TikTok Shop, YouTube Automation, eBay, Etsy, and LLC Registration.</p>
             </div>
             <div class="buttons">
                <ul>
@@ -172,7 +181,7 @@
                   <div class="row">
                      <div class="col-sm-12">
                         <div class="form-txt">
-                           <h2>Get a <span style="color: white !important;">Custom E-commerce </span>Growth Plan Now!</h2>
+                           <h2 style="color: white !important;">Get a <span >Custom E-commerce </span>Growth Plan Now!</h2>
                         </div>
                      </div>
                   </div>
@@ -187,8 +196,6 @@
                   <div class="row">
                      <div class="col-sm-12">
                         <input type="tel" name="phone" placeholder="Phone" required>
-                        <!-- <input type="hidden" name="Service" value=""> -->
-
                      </div>
                   </div>
                   <div class="row">
@@ -217,6 +224,7 @@
                            <option value="Shopify Store">Ebay Store</option>
                            <option value="Shopify Store">Etsy Store</option>
                            <option value="Shopify Store">LLC Registration Service</option>
+                           <option value="Shopify Store">Others</option>
                         </select>
                      </div>
                   </div>
@@ -230,16 +238,16 @@
                      <label class="form-check-label" for="checkbox1">
                          By submitting your phone number, you are consenting to receive text messages from us. You can opt-out at any time by texting "STOP"
                      </label>
-                     </div>
-                  <div class="form-check">
+                  </div>
+                  <!-- <div class="form-check">
                      <input class="form-check-input" type="checkbox" value="agree_calls" id="checkbox2" name="agree_calls">
                      <label class="form-check-label" for="checkbox2">
                          By submitting this form and signing up for texts, you consent to receive messages from Ecom Automates at the number provided, including messages sent by autodialer. Consent is not a condition of purchase. Message & data rates may apply. Message frequency varies. Unsubscribe at any time by replying STOP. Reply HELP for help. Also, By submitting this form you are agreeing to our <a href="privacy-policy" target="_blank" rel="nofollow">Privacy Policy</a> & <a href="terms-conditions" target="_blank" rel="nofollow">Terms & Conditions</a>
                      </label>
-                     </div>
+                  </div> -->
                   <div class="row">
                      <div class="col-sm-12">
-                        <input type="submit" name="send_data" class="bnnr-form-btn" value="Submit">
+                        <input type="submit" name="send_data" class="bnnr-form-btn" style="background-color: #FF6B35; color: white; border: none;" value="Submit">
                      </div>
                   </div>
                </form>
@@ -251,31 +259,42 @@
 <section class="abticon">
    <div class="container">
       <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="processtxt">
+                    <h3 style="font-size: 17px; font-weight:800">Journey</h3>
+                    <h2 style="font-size: 44px; text-transform: uppercase;"><span>SIMPLIFIED</span> E-COMMERCE JOURNEY</h2>
+                    <p style="color: black !important;">We don't just provide a platform; we navigate you through every step of building a thriving online business. Our approach focuses on seamless integration, data-backed decisions, and intelligent scaling, empowering you to focus on your vision while we handle the complexities of growth</p>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+      <div class="row">
          <div class="col-sm-3">
             <div class="iconabt-box">
-               <i class="fa fa-users" aria-hidden="true"></i>
-               <h3>Smart Investments</h3>
+               <img src="./assets/consultation-3d-icon-png-download-5558382.webp" style="height: auto; width: 80px;" alt="">
+               <h3 style="color: white !important;">Smart Investments</h3>
                <p>We make your store concepts profitable by designing high-converting stores and implementing tested growth techniques. </p>
             </div>
          </div>
          <div class="col-sm-3">
             <div class="iconabt-box">
-               <i class="fa fa-line-chart" aria-hidden="true"></i>
-               <h3>Automated Revenue</h3>
+               <img src="./assets/customer-service-3d-icon-png-download-8579915.webp" style="height: auto; width: 80px;" alt="">
+               <h3 style="color: white !important;">Automated Revenue</h3>
                <p>With our automation solutions, your shop remains operational, from product delivery to order monitoring, around the clock.</p>
             </div>
          </div>
          <div class="col-sm-3">
             <div class="iconabt-box">
-               <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-               <h3>Expert-Driven Strategy</h3>
+               <img src="./assets/easy-installation-3d-icon-png-download-13883926.webp" style="height: auto; width: 80px;" alt="">
+               <h3 style="color: white !important;">Expert-Driven Strategy</h3>
                <p>Our experts create a plan for your store, based on data, trends, and expertise, including branding and marketing.</p>
             </div>
          </div>
          <div class="col-sm-3">
             <div class="iconabt-box">
-               <i class="fa fa-laptop" aria-hidden="true"></i>
-               <h3>All-in-One Partnership</h3>
+               <img src="./assets/website-setting-icon-web-development-and-optimization-icons-3d-render-illustration-png.webp" style="height: auto; width: 80px;" alt="">
+               <h3 style="color: white !important;">All-in-One Partnership</h3>
                <p>From setup to operations and long-term scaling, we’ve got you covered, providing an entire solution without delays.</p>
             </div>
          </div>
@@ -306,29 +325,29 @@
         <div class="col-sm-4">
             <div class="ser-box">
                 <img src="images/myservice-01.webp" alt="" srcset="">
-                <h3>Amazon Store Services</h3>
+                <h3 style="margin-top: 10px;">Amazon Store Services</h3>
                 <p>We provide Amazon automation services such as FBA, wholesale, private label, and listing optimization for your quick e-commerce expansion in the competitive market.</p>
-                <div class="serv-btn">
+                <div class="serv-btn" style="margin-top: 10px;">
+                    <a href="Amazon/ecomautomates.com/amazon-service.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+       <div class="col-sm-4">
+            <div class="ser-box">
+                <img src="images/myservice-01.webp" alt="" srcset="">
+                <h3 style="margin-top: 10px;">Amazon Product Research</h3>
+                <p>Discover winning products backed by data. We analyze market trends, competitor gaps, and profitability for FBA, Wholesale, and Private Label to accelerate your e-commerce growth.</p>
+                <div class="serv-btn" style="margin-top: 10px;">
                     <a href="Amazon/ecomautomates.com/amazon-service.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="ser-box">
-                <img src="images/myservice-05.webp" alt="" srcset="">
-                <h3>Walmart Store Management</h3>
-                <p>Our Walmart sellers' automation services in the USA consist of WFS automation, wholesale, dropshipping, and PPC management for sustained sales growth.</p>
-                <div class="serv-btn">
-                    <a href="walmart/ecomautomates.com/walmart-service.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="ser-box">
                 <img src="images/myservice-02.webp" alt="" srcset="">
-                <h3>Shopify Store Services </h3>
+                <h3 style="margin-top: 10px;">Shopify Store Services </h3>
                 <p>We deliver Shopify automation, product research, dropshipping, and private label solutions to create profitable and scalable e-commerce companies.</p>
-                <div class="serv-btn">
+                <div class="serv-btn" style="margin-top: 10px;">
                     <a href="more services/shopify/ecomautomates.com/shopify-service.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -336,9 +355,9 @@
         <div class="col-sm-4">
             <div class="ser-box">
                 <img src="images/myservice-03.webp" alt="" srcset="">
-                <h3>TikTok Shop Management</h3>
+                <h3 style="margin-top: 10px;">TikTok Shop Management</h3>
                 <p>Our expert TikTok Shop automation and strategy consulting solutions help launch, operate, and scale shops for maximum online profits, sales, and engagement.</p>
-                <div class="serv-btn">
+                <div class="serv-btn" style="margin-top: 10px;">
                     <a href="ticktock/ecomautomates.com/tiktokshop.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -346,9 +365,9 @@
         <div class="col-sm-4">
             <div class="ser-box">
                 <img src="images/myservice-08.png" alt="" srcset="">
-                <h3>YouTube Automation Services</h3>
+                <h3 style="margin-top: 10px;">YouTube Automation Services</h3>
                 <p>We provide done-for-you YouTube automation solutions in the USA, creating and monetizing faceless or branded channels for passive profits. Our experts do the work for you.</p>
-                <div class="serv-btn">
+                <div class="serv-btn" style="margin-top: 10px;">
                     <a href="more services/youtube-automation/ecomautomates.com/youtube-automation.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -356,9 +375,9 @@
         <div class="col-sm-4">
             <div class="ser-box">
                 <img src="images/myservice-04.webp" alt="" srcset="">
-                <h3>eBay Store Services</h3>
+                <h3 style="margin-top: 10px;">eBay Store Services</h3>
                 <p>Our eBay automation solution in the USA includes store setup, product research, and automatic selling for steady e-commerce business profits and boosted sales.</p>
-                <div class="serv-btn">
+                <div class="serv-btn" style="margin-top: 10px;">
                     <a href="more services/ebay-store/ecomautomates.com/ebay-store.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -366,9 +385,9 @@
         <div class="col-sm-4">
             <div class="ser-box">
                 <img src="images/myservice-07.png" alt="" srcset="">
-                <h3>Etsy Store Services</h3>
+                <h3 style="margin-top: 10px;">Etsy Store Services</h3>
                 <p>We offer professional Etsy automation service in the USA including shop creation, product management, and SEO optimization to enhance your sales and growth.</p>
-                <div class="serv-btn">
+                <div class="serv-btn" style="margin-top: 10px;">
                     <a href="more services/etsy-store/ecomautomates.com/etsy-store.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -376,10 +395,21 @@
         <div class="col-sm-4">
             <div class="ser-box">
                 <img src="images/myservice-06.webp" alt="" srcset="">
-                <h3>LLC Registration Service</h3>
+                <h3 style="margin-top: 10px;">LLC Registration Service</h3>
                 <p>Our expert & skilled LLC registration service provides quick and efficient business setup, safeguarding brands and facilitating long-term e-commerce success globally.</p>
-                <div class="serv-btn">
+                <div class="serv-btn" style="margin-top: 10px;">
                     <a href="more services/llc/ecomautomates.com/llc-registration-service.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-4">
+            <div class="ser-box">
+                <img src="images/myservice-05.webp" alt="" srcset="">
+                <h3 style="margin-top: 10px;">Walmart Store Management</h3>
+                <p>Our Walmart sellers' automation services in the USA consist of WFS automation, wholesale, dropshipping, and PPC management for sustained sales growth.</p>
+                <div class="serv-btn" style="margin-top: 10px;">
+                    <a href="walmart/ecomautomates.com/walmart-service.html">Learn More <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -502,40 +532,40 @@
             </div>
             <div class="col-sm-2"></div>
         </div>
-        <div class="row">
+        <div class="row" style="margin-top: 20px;">
             <div class="col-sm-3">
                 <div class="process-box">
                     <div class="process-ico">
-                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <img src="./assets/income-3d-icon-png-download-12826438.webp" style="height: auto; width: 80px;" alt="">
                     </div>
-                    <h4>Consult & Plan </h4>
+                    <h4 style="margin-top: 20px;">Consult & Plan </h4>
                     <p>We start with planning your goals, target audience, and platforms to create a customized e-commerce automation plan according to the needs.</p>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="process-box">
                     <div class="process-ico">
-                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <img src="./assets/long-term-investment-3d-icon-png-download-4833567.webp" style="height: auto; width: 80px;" alt="">
                     </div>
-                    <h4>Setup & Integrate </h4>
+                    <h4 style="margin-top: 20px;">Setup & Integrate </h4>
                     <p>Next, our specialists set up systems, tools, and integrations for seamless functions on all your selected sales platforms, increasing ROI. </p>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="process-box">
                     <div class="process-ico">
-                        <i class="fa fa-signal" aria-hidden="true"></i>
+                        <img src="./assets/partner-3d-icon-png-download-8412155.webp" style="height: auto; width: 80px;" alt="">
                     </div>
-                    <h4>Optimize & Automate </h4>
+                    <h4 style="margin-top: 20px;">Optimize & Automate </h4>
                     <p>After that, we enhance listings, automate processes, and optimize marketing to improve profitability with automation & minimal hands-on effort.</p>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="process-box">
                     <div class="process-ico">
-                        <i class="fa fa-line-chart" aria-hidden="true"></i>
+                        <img src="./assets/website-setting-icon-web-development-and-optimization-icons-3d-render-illustration-png.webp" style="height: auto; width: 80px;" alt="">
                     </div>
-                    <h4>Scale & Support </h4>
+                    <h4 style="margin-top: 20px;">Scale & Support </h4>
                     <p>Lastly, we make efforts to grow your business presence while continuing expert assistance and support to ensure steady e-commerce growth.</p>
                 </div>
             </div>
@@ -559,8 +589,8 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="test-txt">
-                    <h3 style="font-size: 17px; font-weight:800 padding-right : 29px;">Testimonials</h3>
-                    <h2 style="font-size: 44px; text-transform: uppercase;">What Sellers <span> Say About Us</span></h2>
+                    <h3 style="font-size: 17px; font-weight:800; color: #fff !important;">Testimonials</h3>
+                    <h2 style="font-size: 44px; text-transform: uppercase;">What Sellers <span> Say <br> About Us</span></h2>
                 </div>
             </div>
             <!-- <div class="col-sm-2"></div> -->
